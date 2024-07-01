@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #space{
+            margin-top: 40px;
+            width: 300px;
+            height: 300px;
+            /* background-image: ('https://tse2.mm.bing.net/th?id=OIP.GLB30wTH1vG3qubAJx4tnQHaEK&pid=Api&P=0&h=180'); */
+            background-color: darkseagreen;
+            border-radius: 20px;
+        }
+        #space div{
+            
+            margin: 10px;
+        }
+        #space input{
+            margin-top: 20px;
+            border-radius: 10px;
+        
+        }
+        #biodata{
+            border-radius: 20px;
+            margin: 20px;
+            padding: 10px;
+            margin-top: 40px;
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form>
+            <div id="space">
+                <div><input type="text" placeholder="Enter name" id="name"></div>
+                <div><input type="text" placeholder="Enter college name" id="college"></div>
+                <div><input type="text" placeholder="Enter mobile no" id="mob"></div>
+                <div><input type="text" placeholder="Enter Email" id="email"></div>
+                <div><input type="text" placeholder="Enter password" id="pass"></div>
+                <div><button onclick="return sub()">click</button></div>
+            </div>
+        </form>
+    </center>
+    
+    <!-- ================================================================================== -->
+     
+    <div id="output"></div>
+    <script src="./biodata.js"></script>
+</body>
+</html>
