@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+        }
+        #main div div{
+            width: 100px;
+            height: 100px;
+            border-radius: 2px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        #div1{
+            background-image: url('https://m.media-amazon.com/images/I/31Bhm8Cj7fL._SS40_.jpg');
+            background-size: cover;
+        }
+        #div2{
+            background-image: url('https://m.media-amazon.com/images/I/419JeB0OswL._SS40_.jpg');
+            background-size: cover;
+        }
+        #div3{
+            background-image: url('https://m.media-amazon.com/images/I/41rjxJpjNAL._SS40_.jpg');
+            background-size: cover;
+        }
+        #div4{
+            background-image: url('https://m.media-amazon.com/images/I/41TB084rO1L._SS40_.jpg');
+            background-size: cover;
+        }
+        #div5{
+            background-image: url('https://m.media-amazon.com/images/I/41ihslKJwiL._SS40_.jpg');
+            background-size: cover;
+        }
+        #div6{
+            background-image: url('https://m.media-amazon.com/images/I/41oXrUkxBlL._SS40_.jpg');
+            background-size: cover;
+        }
+        #output{
+            width: 580px;
+            height: 580px;
+            background-image: url('');
+            background-size: cover;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <div id="div1" onmouseenter="show(1)"></div>
+            <div id="div2" onmouseenter="show(2)"></div>
+            <div id="div3" onmouseenter="show(3)"></div>
+            <div id="div4" onmouseenter="show(4)"></div>
+            <div id="div5" onmouseenter="show(5)"></div>
+            <div id="div6" onmouseenter="show(6)"></div>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="./jsstyle2.js"></script>
+</body>
+</html>

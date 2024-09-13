@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <style>
+        #resume{
+            background-color: aliceblue;
+            width: 400px;
+            border-radius: 10px;
+        }
+        #first div{
+            margin: 0px;
+        }
+        #resume div input{
+            width: 350px;
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: ghostwhite;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form>
+            <div id="resume">
+                <center><h1>Resume</h1></center>
+                <div id="first">
+                    <div><input type="text" placeholder="Enter name" id="name"></div>
+                <div><h2>Full Stack Python Developer</h2></div>
+                </div>
+                <div>__________________________________________________</div>
+                <div><h1>Contact</h1></div>
+                <div><input type="text" placeholder="Enter mobile no" id="mob"></div>
+                <!-- <div><input type="text" placeholder="Enter your Addres" id="adres"></div> -->
+                <div><input type="text" placeholder="Enter your email id" id="email"></div>
+                <div><input type="text" placeholder="Enter your password" id="pass"></div>
+                <div><input type="text" placeholder="Enter you confirm password" id="cpass"></div>
+                <div><input type="text" placeholder="Enter Linkedin id" id="lkd"></div>
+                <div><input type="text" placeholder="Enter Github link" id="gib"></div>
+                <div><button onclick="return sub()">click</button></div>
+            </div>
+        </form>
+    </center>
+
+    <!-- =================================================================================== -->
+     <div id="output"></div>
+     <script src="./resume.js"></script>
+</body>
+</html>
